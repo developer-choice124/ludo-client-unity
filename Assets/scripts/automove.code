@@ -1,0 +1,94 @@
+// if (diceRandomValue != 6 && openedTokens == 1)
+                // {
+                //     token tkn = mytokens.Find((t) => (t.isOpened)&&t.GetNextPostion()<=goalPos);
+                //     if (tkn != null)
+                //     {
+                //         if (BoardOf == PlayerMode.Human)
+                //         {
+                //             // Debug.Log("dice roll 185 move token");
+                //             GameClient._Instance.Send(new Message { playerPhase = "move_token", tokenid = tkn.id, tokenpos = tkn.GetNextPostion() });
+                //         }
+                //     }else{
+                //         SendIplayed();
+                //     }
+
+                // }
+                // else if (diceRandomValue != 6 && openedTokens > 1)
+                // {
+
+                //     List<token> tknscant = mytokens.FindAll((t) => (t.GetNextPostion() > goalPos) && (t.isOpened));
+                //     List<token> tknseligible = mytokens.FindAll((t) => (t.GetNextPostion() <= goalPos) && (t.isOpened));
+
+                //     foreach (token t in mytokens)
+                //     {
+                //         if (tknscant.Any() && tknscant.Count > 0 && t.isOpened)
+                //         {
+                //             if (!tknscant.Contains(t) && tknseligible.Count == 1)
+                //             {
+                //                 if (BoardOf == PlayerMode.Human)
+                //                 {
+                //                     // Debug.Log("dice roll 201 move token");
+                //                     GameClient._Instance.Send(new Message { playerPhase = "move_token", tokenid = t.id, tokenpos = t.GetNextPostion() });
+                //                     break;
+                //                 }
+
+                //             }
+                //         }
+
+                //     }
+
+                // }
+                // if (diceRandomValue == 6 && openedTokens == 1 && goaledTokens == 3)
+                // {
+                //     token tkn = mytokens.Find((t) => t.isOpened);
+
+                //     if (tkn != null)
+                //     {
+
+                //         if (tkn.GetNextPostion() > goalPos)
+                //         {
+                //             SendIplayed();
+                //         }
+                //         else
+                //         {
+                //             if (BoardOf == PlayerMode.Human)
+                //             {
+                //                 GameClient._Instance.Send(new Message { playerPhase = "move_token", tokenid = tkn.id, tokenpos = tkn.GetNextPostion() });
+                //             }
+                //         }
+
+
+
+                //     }
+
+
+                // }
+                
+                // List<token> tkns2 = mytokens.FindAll((t) => (t.isOpened));
+
+                // int cantnextpostkns = 0;
+
+                // if (diceRandomValue == 6 && openedTokens >0 )
+                // {
+                //     token tkn = mytokens.Find((t) => t.isOpened&&t.GetNextPostion()<=goalPos);
+                //     if(tkn==null){
+                //         SendIplayed();
+                //     }
+
+                // }
+
+
+                // tkns2.ForEach(t =>
+                // {
+                //     if (t.GetNextPostion() > goalPos)
+                //     {
+                //         cantnextpostkns++;
+                //     }
+                // });
+               
+                // if (cantnextpostkns == tkns2.Count && cantnextpostkns > 0 && diceRandomValue != 6)
+                // {
+                //     // Debug.LogWarning("cant move any token passing turn");
+                //     SendIplayed();
+
+                // }

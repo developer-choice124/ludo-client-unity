@@ -1,0 +1,7 @@
+0  paths 
+1  homes
+2  rooms
+3  trails
+4  token static
+5  token moving 
+

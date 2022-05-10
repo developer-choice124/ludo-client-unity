@@ -1,0 +1,21 @@
+         TODO - 
+
+- internet packet loss reconenect.
+
+- ui improvemnts
+
+- check redeem option 
+
+
+
+
+
+
+
+         DONE -
+
+- BOARD not created cause of cache.
+
+- extra turn not working when auto move goal.
+
+- 
